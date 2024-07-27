@@ -12,7 +12,7 @@ pygame.display.set_caption('Keyboard and Mouse Events')
 # Initialize NetworkTables
 inst = ntcore.NetworkTableInstance.getDefault()
 inst.startClient4("KeyboardMouseClient")
-inst.setServer("127.0.0.1")
+inst.setServer("127.0.0.1") #Change this to your roboRIO ip address (10.TE.AM.2)
 table = inst.getTable("KeyboardMouseEvents")
 
 # Create and publish boolean topics for keyboard and mouse buttons
