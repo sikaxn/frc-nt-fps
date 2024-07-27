@@ -4,6 +4,8 @@
 
 This tool send keyboard stroke (qwertasdfghzxcv12345) mouse stroke (left, right, middle) and mouse speed (X, Y and scroll wheel) to networktable server.
 
+Press P key on the keyboard to pause capture and press P again to resume.
+
 ![Glass nt variable preview](images/1.jpg)
 
 Pygame and robotpy is required to launch this.
